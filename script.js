@@ -1,7 +1,7 @@
 let random_array = [];  //массив для заполнения случайными числами
 for(let i=0; i<30; i++)
 {
-    random_array[i] = GetRandomInt (99); //заполнение массива случайными числами
+    random_array[i] = GetRandomInt (100); //заполнение массива случайными числами
 }
 
 let table = document.createElement ('table'); //создание узла таблицы
